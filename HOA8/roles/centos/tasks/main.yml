@@ -20,6 +20,7 @@
       - net-snmp
       - net-snmp-utils
     state: latest
+    update_cache: yes
 
 - name: Installing the passlib python package
   pip:

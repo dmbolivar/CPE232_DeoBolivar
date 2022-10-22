@@ -25,6 +25,7 @@
       - gettext
       - libnet-snmp-perl
     state: latest
+    update_cache: yes
 
 - name: Installing the passlib python package
   pip:
